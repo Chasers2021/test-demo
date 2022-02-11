@@ -3,7 +3,11 @@ git add 加入暂存区
 git commit -m提交到本地
 git status 查看项目状态
 git branch 'name' 创建分支
+<<<<<<< HEAD
 git checkout 'branch name'切分支
+=======
+git checkout 'branch name'切换分
+>>>>>>> dev
 git branch -d 'branch name'删除分支
 git checkout -- '文件名' 回到上一次提交的状态
 git checkout 'id' -- '文件名' 将指定文件回到指定版本
